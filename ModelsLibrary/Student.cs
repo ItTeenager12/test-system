@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ModelsLibrary
 {
-    public class Class1
+    class Student
     {
+
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public double Rate { get; set; }
     }
 }
